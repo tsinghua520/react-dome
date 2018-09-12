@@ -1,5 +1,5 @@
 /**
- * Created by Ryan on 3/29/2017.
+ * Created by Ryan on 3/29/201722.
  */
 function Land(option){
     this.ctx = option.ctx;
@@ -10,9 +10,9 @@ function Land(option){
     this.height = this.img.height;
     this.speed = 2;
 }
-
+// prototype
 Land.prototype = {
-    constructor: Land,
+    constructor: Landa,
     draw: function () {
         this.x -= this.speed;
         if(this.x < -this. width){
