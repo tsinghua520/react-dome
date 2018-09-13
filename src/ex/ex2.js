@@ -31,7 +31,7 @@ function Comment (props) {
   );
 }
 const user = {
-  name: 'tsinghua',
+  name: 'tsinghua22',
   imgUrl:''
 }
 class App extends Component{
