@@ -1,6 +1,6 @@
 import React from 'react';
-import About from '../ex/ex1';
-import Inbox from '../ex/ex2';
+import About from './components/About';
+import Inbox from './components/Inbox';
 import { BrowserRouter, Route } from 'react-router-dom'
 // import registerServiceWorker from '../config/registerServiceWorker';
 
