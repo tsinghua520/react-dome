@@ -13,10 +13,10 @@ function UserInfo (props) {
     </div>
   );
 }
-function formatDate(data){
-  var date = new Date(data)
-  return date;
-}
+// function formatDate(data){
+//   var date = new Date(data)
+//   return date;
+// }
 function Comment (props) {
   return (
     <div>
