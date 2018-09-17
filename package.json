@@ -14,5 +14,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy":"https://"
+  "proxy": {
+    "/gp": {
+      "target": "http://localhost:8086/api",
+      "changeOrigin":true
+    }
+  }
 }

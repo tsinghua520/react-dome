@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import axios from 'axios'
 function Welcome(props){
   return <h1>hello,{props.name}</h1>
 }
@@ -10,6 +10,12 @@ function Welcome(props){
 // }
 // let element = <Welcome name='stinghua' />
 class App extends Component{
+  componentDidMount() {
+    axios.post('/gp/cms/getAdByPlace',{acId: 101})
+      .then( (res) => {
+        console.log(res)
+      })
+  }
   render() {
     return (
       <div>
