@@ -1,12 +1,12 @@
 import React from 'react';
-import About from './components/About';
+import Index from './components/Index';
 import Inbox from './components/Inbox';
 import { BrowserRouter, Route } from 'react-router-dom'
 // import registerServiceWorker from '../config/registerServiceWorker';
 
 const PrimaryLayout = () => (
   <div>
-    <Route path="/" exact component={About} />
+    <Route path="/" exact component={Index} />
     <Route path="/users" component={Inbox} />
   </div>
 )
