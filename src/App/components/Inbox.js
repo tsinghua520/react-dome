@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../../static/css/inbox.css'
 function Avatar (props) {
   return (
     <img src={props.user.picUrl} alt={props.user.name} />
@@ -27,6 +27,7 @@ function Comment (props) {
       <div className="comment-date">
         {/* {formatDate(props.date)} */}
       </div>
+      <h2>saddjksajk<span>sadsad</span></h2>
     </div>
   );
 }

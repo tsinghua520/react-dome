@@ -1,5 +1,8 @@
 ## react-dome
 ## create-app-create + react-router + antd ui
+
+- 由于antd ui 在node_modules 下配置了.babelrc
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
