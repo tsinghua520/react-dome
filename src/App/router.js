@@ -1,13 +1,13 @@
 import React from 'react';
-import Index from './components/Index';
-import Inbox from './components/Inbox';
+import Index from './components/Index/Index';
+import Users from './components/Users';
 import { BrowserRouter, Route } from 'react-router-dom'
 // import registerServiceWorker from '../config/registerServiceWorker';
 
 const PrimaryLayout = () => (
   <div>
     <Route path="/" exact component={Index} />
-    <Route path="/users" component={Inbox} />
+    <Route path="/users" component={Users} />
   </div>
 )
 // const HomePage =() => <div>Home Page</div>

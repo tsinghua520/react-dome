@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './static/css/index.css';
 import 'antd-mobile/dist/antd-mobile.css';
 // import { BrowserRouter, Route } from 'react-router-dom'
 import App from './App/router'
