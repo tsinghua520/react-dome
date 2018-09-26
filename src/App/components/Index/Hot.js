@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     let data = this.state.data
     let list = data.map( (obj, index) => {
-      return <li key={index}>{obj.name}+{obj.age}</li>
+      return <li onClick={this.props.changeHandler} key={index}>{obj.name}+{obj.age}</li>
     })
     return (
       <div>
