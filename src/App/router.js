@@ -1,6 +1,8 @@
 import React from 'react';
 import Index from './components/Index/Index';
 import Users from './components/Users';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 import { BrowserRouter, Route } from 'react-router-dom'
 // import registerServiceWorker from '../config/registerServiceWorker';
 
@@ -8,6 +10,8 @@ const PrimaryLayout = () => (
   <div>
     <Route path="/" exact component={Index} />
     <Route path="/users" component={Users} />
+    <Route path="/login" component={Login} />
+    <Route path="/register" component={Register} />
   </div>
 )
 // const HomePage =() => <div>Home Page</div>
