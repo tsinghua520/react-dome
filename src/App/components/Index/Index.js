@@ -10,17 +10,22 @@ class App extends React.Component {
       imgHeight: 176,
     }
     this.toCenter = this.toCenter.bind(this)
+    this.toApart = this.toApart.bind(this)
   }
   toCenter(){
     window.location.href='/center'
+  }
+  toApart(){
+    window.location.href='/apartment'
   }
   render() {
     return (
       <div>
         <Swiper data={this.state.data} /> 
         <h3>热门推荐</h3>
+        <h2 onClick={this.toApart}>订单详情页</h2>
         <Hot datalist={this.state.data}></Hot>
-        <h2 onClick={this.toCenter()}>个人中心</h2>
+        <h2 onClick={this.toCenter}>个人中心</h2>
       </div>
     );
   }
