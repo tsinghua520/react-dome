@@ -22,11 +22,10 @@ class App extends React.Component {
       <Carousel
           autoplay={false}
           infinite
-          beforeChange={(from, to) => console.log(`slide from ${from} to ${to}`)}
-          afterChange={index => console.log('slide to', index)}
         >
           {this.state.data.map(val => (
             <a
+              href='http://www.baidu.com'
               key={val}
               style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight }}
             >

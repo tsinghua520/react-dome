@@ -3,9 +3,16 @@ import '../../../static/css/index.css'
 import Swiper from '../../common/Slider'
 import Hot from './Hot'
 class App extends React.Component {
-  state = {
-    data: ['1', '2', '3'],
-    imgHeight: 176,
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: ['1', '2', '3'],
+      imgHeight: 176,
+    }
+    this.toCenter = this.toCenter.bind(this)
+  }
+  toCenter(){
+    window.location.href='/center'
   }
   render() {
     return (
@@ -13,6 +20,7 @@ class App extends React.Component {
         <Swiper data={this.state.data} /> 
         <h3>热门推荐</h3>
         <Hot datalist={this.state.data}></Hot>
+        <h2 onClick={this.toCenter()}>个人中心</h2>
       </div>
     );
   }
