@@ -8,7 +8,6 @@ import Reservation from './components/Reservation/Reservation';
 import Center from './components/My/Center';
 import { BrowserRouter, Route } from 'react-router-dom'
 // import registerServiceWorker from '../config/registerServiceWorker';
-
 const PrimaryLayout = () => (
   <div>
     <Route path="/" exact component={Index} />
