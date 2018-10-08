@@ -1,0 +1,18 @@
+.photo{
+  font-size: 50px;
+  color: #666
+}
+ul{
+  overflow: hidden;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  width: 33%;
+  float: left;
+  text-align: center;
+  font-size: 14px
+}
+ul li .iconfont{
+  font-size: 20px
+}
