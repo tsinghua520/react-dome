@@ -4,6 +4,7 @@ import Users from './components/Users';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import Apartment from './components/Apartment/ApartmentDetail';
+import Reservation from './components/Reservation/Reservation';
 import Center from './components/My/Center';
 import { BrowserRouter, Route } from 'react-router-dom'
 // import registerServiceWorker from '../config/registerServiceWorker';
@@ -16,6 +17,7 @@ const PrimaryLayout = () => (
     <Route path="/register" component={Register} />
     <Route path="/center" component={Center} />
     <Route path="/apartment" component={Apartment} />
+    <Route path="/reservation" component={Reservation} />
   </div>
 )
 // const HomePage =() => <div>Home Page</div>
