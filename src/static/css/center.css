@@ -1,18 +1,29 @@
 .photo{
   font-size: 50px;
-  color: #666
+  color: #666;
+  margin: 10px 0 10px 40px 
 }
-ul{
+.mycenter ul{
   overflow: hidden;
   padding: 0;
 }
-ul li{
+.mycenter ul li{
   list-style: none;
   width: 33%;
   float: left;
   text-align: center;
   font-size: 14px
 }
-ul li .iconfont{
+.mycenter ul li a{
+  display: block;
+  padding: 20px 0 0
+}
+.mycenter ul li .iconfont{
+  font-size: 20px
+}
+.mycenter ul li a p{
+  color: #666
+}
+li{
   font-size: 20px
 }
